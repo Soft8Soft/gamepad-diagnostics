@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Verge3D Gamepad Diagnostics Tool</title>
+    <meta charset="utf-8">
+
+    <!-- Search Engines -->
+    <meta name="description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with Verge3D.">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Verge3D Gamepad Diagnostics Tool">
+    <meta name="twitter:description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with Verge3D.">
+    <meta name="twitter:image:src" content="https://www.soft8soft.com/gamepad_diagnostics/snes.jpg">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Verge3D Gamepad Diagnostics Tool">
+    <meta property="og:description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with Verge3D.">
+    <meta property="og:image" content="https://www.soft8soft.com/gamepad_diagnostics/snes.jpg">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="icon.png" />
+
+    <script src="gamepad_diagnostics.js"></script>
+    <link rel="stylesheet" type="text/css" href="gamepad_diagnostics.css">
+  </head>
+  <body>
+    <h1>Verge3D Gamepad Diagnostics</h1>
+    <div>ID: <span id="gp_id"></div>
+    <div>Index: <span id="gp_index"></div>
+    <div>Timestamp: <span id="gp_timestamp"></div>
+    <div>Axes: <span id="gp_axes_num"></div>
+    <div>Buttons: <span id="gp_buttons_num"></div>
+    <br>
+    <div id="gp_axes">Please connect your gamepad device and press any key on it!</div>
+    <br>
+    <div id="gp_buttons"></div>
+
+    <div class="footer"><a href="https://github.com/Soft8Soft/gamepad-diagnostics">GitHub Repo</a></div>
+
+  </body>
+</html>
