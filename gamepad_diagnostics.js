@@ -35,7 +35,7 @@ window.addEventListener('gamepaddisconnected', function(e) {
         gp_axes_num.innerText = '';
         gp_buttons_num.innerText = '';
 
-        gp_axes.innerHTML = 'Please connect your gamepad device and press any key on it!';
+        gp_axes.innerHTML = '<span class="red">Please connect your gamepad device and press any key on it!</span>';
         gp_buttons.innerHTML = '';
 
         gamepadIdx = -1;

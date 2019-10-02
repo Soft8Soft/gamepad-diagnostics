@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Verge3D Gamepad Diagnostics Tool</title>
+    <title>HTML5 Gamepad Diagnostics Tool</title>
     <meta charset="utf-8">
 
     <!-- Search Engines -->
-    <meta name="description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with Verge3D.">
+    <meta name="description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with HTML5.">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Verge3D Gamepad Diagnostics Tool">
-    <meta name="twitter:description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with Verge3D.">
+    <meta name="twitter:title" content="HTML5 Gamepad Diagnostics Tool">
+    <meta name="twitter:description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with HTML5.">
     <meta name="twitter:image:src" content="https://www.soft8soft.com/gamepad_diagnostics/snes.jpg">
     <!-- Open Graph -->
-    <meta property="og:title" content="Verge3D Gamepad Diagnostics Tool">
-    <meta property="og:description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with Verge3D.">
+    <meta property="og:title" content="HTML5 Gamepad Diagnostics Tool">
+    <meta property="og:description" content="Interactive Gamepad API diagnostics tool. Check if your device is compatible and retrieve the model, axes, buttons and other information for use with HTML5.">
     <meta property="og:image" content="https://www.soft8soft.com/gamepad_diagnostics/snes.jpg">
     <meta property="og:type" content="website">
 
@@ -23,18 +23,25 @@
     <link rel="stylesheet" type="text/css" href="gamepad_diagnostics.css">
   </head>
   <body>
-    <h1>Verge3D Gamepad Diagnostics</h1>
+    <h1>Gamepad Diagnostics Tool</h1>
     <div>ID: <span id="gp_id"></div>
     <div>Index: <span id="gp_index"></div>
     <div>Timestamp: <span id="gp_timestamp"></div>
     <div>Axes: <span id="gp_axes_num"></div>
     <div>Buttons: <span id="gp_buttons_num"></div>
     <br>
-    <div id="gp_axes">Please connect your gamepad device and press any key on it!</div>
+    <div id="gp_axes">
+      <span class="red">Please connect your gamepad device and press any key on it!</span>
+      <img src="https://www.soft8soft.com/gamepad_diagnostics/snes.jpg">
+    </div>
     <br>
     <div id="gp_buttons"></div>
 
-    <div class="footer"><a href="https://github.com/Soft8Soft/gamepad-diagnostics">GitHub Repo</a></div>
+    <div class="footer">
+      <a href="https://github.com/Soft8Soft/gamepad-diagnostics/">GitHub Repo</a> |
+      <a href="https://www.w3.org/TR/gamepad/">HTML5 Spec</a> |
+      <a href="https://www.soft8soft.com/verge3d">Built for Verge3D</a>
+    </div>
 
   </body>
 </html>

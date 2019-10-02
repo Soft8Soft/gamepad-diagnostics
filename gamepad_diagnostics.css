@@ -1,5 +1,21 @@
 body {
+    color: #93f300;
+    background-color: #1b1b1b;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 315px;
+    display: block;
+    margin: 10px 0px;
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
 }
 
 .footer {
@@ -8,4 +24,8 @@ body {
     margin-left: -55px;
     left: 50%;
     font-size: 14px;
+}
+
+.red {
+    color: red;
 }
