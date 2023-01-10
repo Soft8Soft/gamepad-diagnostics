@@ -6,6 +6,7 @@ window.addEventListener('gamepadconnected', function(e) {
 
     gp_id.innerText = gamepad.id;
     gp_index.innerText = gamepad.index;
+    gp_mapping.innerText = gamepad.mapping;
     gp_axes_num.innerText = gamepad.axes.length;
     gp_buttons_num.innerText = gamepad.buttons.length;
 
@@ -31,6 +32,7 @@ window.addEventListener('gamepaddisconnected', function(e) {
     if (e.gamepad.index == gamepadIdx) {
         gp_id.innerText = '';
         gp_index.innerText = '';
+        gp_mapping.innerText = '';
         gp_timestamp.innerText = '';
         gp_axes_num.innerText = '';
         gp_buttons_num.innerText = '';
